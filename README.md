@@ -11,15 +11,15 @@ Upon installing a enabling this extension you get an F5 shortcut to access a men
 Below I detail each option
 
 - Multibake.
-This option creates multiple bakes based on one or more principal nodes, and the resulting texture options appear in panel n. By default, these are Diffuse, Roughness, Normal, and Metalness. You can also add Ambient Occlusion, Opacity, and Emission, or remove textures you don't need. Panel n also defines the texture size, which defaults to 4096 x 4096. This can be changed, but it must always be a square texture.
+- This option creates multiple bakes based on one or more principled nodes, and the resulting texture options appear in panel n, by default is uses the object name to create the name of the textures; you can customize the name in the n panel. By default, these are Diffuse, Roughness, Normal, and Metalness. You can also add Ambient Occlusion, Opacity, and Emission, or remove textures you don't need. Panel n also defines the texture size, which defaults to 4096 x 4096. This can be changed, but it must always be a square texture.
 You can also use selection to active
 Blender will pause until it finishes making the bakes you have chosen.
 
 - Create Textures Folder.
-This option packages the textures into the .blend file and also creates a folder called textures in the directory where the .blend file is saved.
+- This option packages the textures into the .blend file and also creates a folder called textures in the directory where the .blend file is saved.
 
 - Multi Export.
-This option exports the objects in your scene in the following formats: - Alembic - FBX - Obj - Usdc - Stanford PLY. With the default options, it only saves a few clicks, but I was repeating this a lot, so I made this script.
+- This option exports the objects in your scene in the following formats: - Alembic - FBX - Obj - Usdc - Stanford PLY. With the default options, it only saves a few clicks, but I was repeating this a lot, so I made this script.
 
 - Super Purge.
-This option deletes resources that are not being used anywhere, very useful for getting rid of orphaned resources. Unlike the normal purge, it does not ask for confirmation; use with caution.
+-This option deletes resources that are not being used anywhere, very useful for getting rid of orphaned resources. Unlike the normal purge, it does not ask for confirmation; use with caution.
